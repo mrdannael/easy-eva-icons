@@ -1,0 +1,10 @@
+{
+  "name": "easy-eva-icons",
+  "version": "0.0.1",
+  "description": "Easy to use eva icons.",
+  "main": "index.js",
+  "repository": "git@github.com:mrdannael/easy-eva-icons.git",
+  "author": "mrdannael",
+  "license": "MIT",
+  "private": false
+}
