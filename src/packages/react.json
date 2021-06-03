@@ -7,6 +7,9 @@
   "publishConfig": {
     "access": "public"
   },
+  "bugs": {
+    "url" : "https://github.com/mrdannael/easy-eva-icons/issues"
+  },
   "description": "Easy to use eva icons.",
   "keywords": ["eva-icons", "icons", "react"],
   "repository": "git@github.com:mrdannael/easy-eva-icons.git",

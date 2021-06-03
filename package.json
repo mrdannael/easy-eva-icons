@@ -8,6 +8,9 @@
     "react"
   ],
   "repository": "git@github.com:mrdannael/easy-eva-icons.git",
+  "bugs": {
+    "url" : "https://github.com/mrdannael/easy-eva-icons/issues"
+  },
   "author": "mrdannael",
   "license": "MIT",
   "private": false,
