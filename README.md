@@ -4,7 +4,9 @@
 
 <p align="center">
     <a href="https://github.com/tailwindlabs/heroicons/releases"><img src="https://img.shields.io/npm/v/easy-eva-icons" alt="Latest Release"></a>
-    <a href="https://github.com/mrdannael/easy-eva-icons/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/easy-eva-icons.svg" alt="License"></a>
+    <a href="https://github.com/mrdannael/easy-eva-icons/blob/master/LICENSE"><img src="https://img.shields.io/github/license/mrdannael/easy-eva-icons" alt="License"></a>
+    <a href="https://reactjs.org/"><img src="https://img.shields.io/badge/react-%3E%3D16-blue" alt="React Version"></a>
+    <a href="https://github.com/mrdannael/easy-eva-icons/issues"><img src="https://img.shields.io/github/issues-raw/mrdannael/easy-eva-icons" alt="Open Issues"></a>
 </p>
 
 **Eva Icons** is a pack of more than 480 beautifully crafted Open Source icons for common actions and items.
