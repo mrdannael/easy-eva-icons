@@ -10,6 +10,7 @@
   "bugs": {
     "url" : "https://github.com/mrdannael/easy-eva-icons/issues"
   },
+  "homepage": "https://github.com/mrdannael/easy-eva-icons#readme",
   "description": "Easy to use eva icons.",
   "keywords": ["eva-icons", "icons", "react"],
   "repository": "git@github.com:mrdannael/easy-eva-icons.git",
