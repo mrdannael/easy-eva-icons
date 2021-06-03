@@ -7,6 +7,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.0.0] - 2021-06-03
 
-- Complete setup of icons components for React.
-- Add Prettier to the project.
-- Add README, LICENSE and CHANGELOG.
+- First release with icons for React
