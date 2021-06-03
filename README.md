@@ -1,1 +1,1 @@
-# easy-eva-icons
+# Easy Eva Icons

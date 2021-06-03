@@ -1,0 +1,16 @@
+{
+  "name": "@easy-eva-icons/react",
+  "version": "0.1.0",
+  "main": "cjs/index.js",
+  "module": "esm/index.js",
+  "types": "esm/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "Easy to use eva icons.",
+  "keywords": ["eva-icons", "icons", "react"],
+  "repository": "git@github.com:mrdannael/easy-eva-icons.git",
+  "author": "mrdannael",
+  "license": "MIT",
+  "private": false
+}
