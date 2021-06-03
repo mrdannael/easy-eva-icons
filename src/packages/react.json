@@ -1,6 +1,6 @@
 {
   "name": "@easy-eva-icons/react",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "main": "cjs/index.js",
   "module": "esm/index.js",
   "types": "esm/index.d.ts",
