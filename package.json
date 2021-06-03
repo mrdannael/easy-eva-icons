@@ -21,11 +21,9 @@
     "build:react": "node ./scripts/build react",
     "build:esm": "tsc",
     "build:cjs": "tsc --module commonjs --outDir ./lib/react/cjs",
-    "postbuild": "npm run copy:react",
     "optimize": "rimraf ./svg && npm-run-all --parallel optimize:fill optimize:outline",
     "optimize:fill": "svgo -q -f ./src/fill -o ./svg",
-    "optimize:outline": "svgo -q -f ./src/outline -o ./svg",
-    "copy:react": "cp -R ./src/packages/react.json ./lib/react/package.json"
+    "optimize:outline": "svgo -q -f ./src/outline -o ./svg"
   },
   "devDependencies": {
     "@svgr/core": "^5.5.0",
