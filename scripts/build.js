@@ -19,7 +19,7 @@ const generate = {
   // to be implemented
   vue: async () => {
     return;
-  }
+  },
 };
 
 async function buildIcons(package) {
@@ -64,7 +64,11 @@ async function getAllIcons() {
 async function main(package) {
   log(chalk.green(`Building ${package} icons package...`));
 
-  Promise.all([rimraf(`./${package}/*`), rimraf(`./lib/${package}/*`)])
+  Promise.all([
+    rimraf(`./${package}/*`),
+    rimraf(`./lib/${package}/esm`),
+    rimraf(`./lib/${package}/cjs`),
+  ])
     .then(() => Promise.all([buildIcons(package)]))
     .then(() => {
       log(chalk.green('Building finished successfully!'));

@@ -10,5 +10,3 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Complete setup of icons components for React.
 - Add Prettier to the project.
 - Add README, LICENSE and CHANGELOG.
-
-

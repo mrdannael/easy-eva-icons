@@ -31,7 +31,7 @@ function MyComponent() {
     <div>
       <Archive />
     </div>
-  )
+  );
 }
 ```
 
@@ -45,12 +45,11 @@ function MyComponent() {
     <div>
       <ArchiveOutline />
     </div>
-  )
+  );
 }
 ```
 
 Icons accepts common SVG properties.
-
 
 ## Roadmap
 
