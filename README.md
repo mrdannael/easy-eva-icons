@@ -10,6 +10,7 @@
 </p>
 
 **Eva Icons** is a pack of more than 480 beautifully crafted Open Source icons for common actions and items.
+This package is based on [eva-icons](https://akveo.github.io/eva-icons) repository.
 
 ## React
 
