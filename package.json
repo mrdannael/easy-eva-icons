@@ -19,7 +19,7 @@
     "svg/"
   ],
   "scripts": {
-    "prepublishOnly": "npm run optimize && npm run build && copy",
+    "prepublishOnly": "npm run optimize && npm run build && npm run copy",
     "build": "npm run build:react && npm-run-all --parallel build:esm build:cjs",
     "build:react": "node ./scripts/build react",
     "build:esm": "tsc",
