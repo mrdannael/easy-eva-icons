@@ -1,6 +1,6 @@
 {
   "name": "easy-eva-icons",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Easy to use eva icons.",
   "keywords": [
     "eva-icons",
@@ -15,15 +15,19 @@
   "author": "mrdannael",
   "license": "MIT",
   "private": false,
+  "files": [
+    "svg/"
+  ],
   "scripts": {
-    "prepublishOnly": "npm run optimize && npm run build",
+    "prepublishOnly": "npm run optimize && npm run build && copy",
     "build": "npm run build:react && npm-run-all --parallel build:esm build:cjs",
     "build:react": "node ./scripts/build react",
     "build:esm": "tsc",
     "build:cjs": "tsc --module commonjs --outDir ./lib/react/cjs",
     "optimize": "rimraf ./svg && npm-run-all --parallel optimize:fill optimize:outline",
     "optimize:fill": "svgo -q -f ./src/fill -o ./svg",
-    "optimize:outline": "svgo -q -f ./src/outline -o ./svg"
+    "optimize:outline": "svgo -q -f ./src/outline -o ./svg",
+    "copy": "cp -t lib/react LICENSE README.md CHANGELOG.md"
   },
   "devDependencies": {
     "@svgr/core": "^5.5.0",
